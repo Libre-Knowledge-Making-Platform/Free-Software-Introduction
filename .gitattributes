@@ -9,3 +9,7 @@
 ## Clean Filter for SVG Pictures
 ## Stripping unneeded info, etc.
 *.svg filter=clean-svg
+
+## Git Large File Storage Inputs
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
+	<office:meta>
+		<meta:creation-date>2015-06-26T02:01:05.473701983</meta:creation-date>
+		<meta:keyword>自由軟體</meta:keyword>
+		<meta:keyword>Free Software</meta:keyword>
+		<meta:keyword>GNU</meta:keyword>
+		<meta:keyword>Richard Stallman</meta:keyword>
+		<meta:keyword>Linux</meta:keyword>
+		<meta:keyword>GPL</meta:keyword>
+		<meta:keyword>專有軟體</meta:keyword>
+		<meta:keyword>Proprietary Software</meta:keyword>
+		<dc:subject>本簡報用於讓觀眾了解自由軟體的定義與其歷史演進</dc:subject>
+		<dc:title>自由軟體簡介</dc:title>
+	</office:meta>
+	<office:scripts>
+		<office:script script:language="ooo:Basic">
+			<ooo:libraries>
+				<ooo:library-embedded ooo:name="Standard"/>
+			</ooo:libraries>
+		</office:script>
+	</office:scripts>
+	<office:font-face-decls>
+		<style:font-face style:name="Noto Sans CJK TC Regular2" svg:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="swiss"/>
+		<style:font-face style:name="Liberation Mono2" svg:font-family="'Liberation Mono', 'Courier New'" style:font-family-generic="modern" style:font-pitch="fixed"/>
+		<style:font-face style:name="思源黑體 Regular2" svg:font-family="'思源黑體 Regular'" style:font-adornments="標準" style:font-pitch="variable"/>
+		<style:font-face style:name="Liberation Mono1" svg:font-family="'Liberation Mono', 'Courier New'" style:font-family-generic="modern" style:font-pitch="variable"/>
+		<style:font-face style:name="AR PL UMing TW1" svg:font-family="'AR PL UMing TW'" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="Liberation Mono" svg:font-family="'Liberation Mono', 'Courier New'" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="思源黑體 Regular" svg:font-family="'思源黑體 Regular'" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="思源黑體 Regular1" svg:font-family="'思源黑體 Regular'" style:font-adornments="標準" style:font-family-generic="roman" style:font-pitch="variable"/>
+		<style:font-face style:name="Noto Sans CJK TC Regular1" svg:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="swiss" style:font-pitch="variable"/>
+	</office:font-face-decls>
+	<office:styles>
+		<draw:marker draw:name="Arrow" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
+		<draw:stroke-dash draw:name="Dashed_20__28_var_29__20_1" draw:display-name="Dashed (var) 1" draw:style="rect" draw:dots1="1" draw:dots1-length="0.02cm" draw:dots2="1" draw:dots2-length="0.02cm" draw:distance="0.02cm"/>
+		<style:style style:name="standard" style:family="graphic">
+			<style:graphic-properties draw:stroke="solid" draw:stroke-dash="Dashed_20__28_var_29__20_1" svg:stroke-width="0cm" svg:stroke-color="#3465a4" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:marker-end-width="0.2cm" draw:marker-end-center="false" draw:fill="solid" draw:fill-color="#729fcf" draw:textarea-horizontal-align="justify" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080">
+				<text:list-style style:name="standard">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Droid Sans Fallback" style:font-family-complex="'Droid Sans Fallback'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="objectwitharrow" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="solid" svg:stroke-width="0.15cm" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.7cm" draw:marker-start-center="true" draw:marker-end-width="0.3cm"/>
+		</style:style>
+		<style:style style:name="objectwithshadow" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+		</style:style>
+		<style:style style:name="objectwithoutfill" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties svg:stroke-color="#000000" draw:fill="none"/>
+		</style:style>
+		<style:style style:name="物體無填充也無線條" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+		</style:style>
+		<style:style style:name="text" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+		</style:style>
+		<style:style style:name="textbody" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:text-properties fo:font-size="16pt"/>
+		</style:style>
+		<style:style style:name="textbodyjustfied" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:text-align="justify"/>
+		</style:style>
+		<style:style style:name="textbodyindent" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.6cm"/>
+		</style:style>
+		<style:style style:name="title" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:text-properties fo:font-size="44pt"/>
+		</style:style>
+		<style:style style:name="title1" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#008080" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+			<style:paragraph-properties fo:text-align="center"/>
+			<style:text-properties fo:font-size="24pt"/>
+		</style:style>
+		<style:style style:name="title2" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties svg:stroke-width="0.05cm" draw:fill-color="#ffcc99" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0.2cm" fo:margin-top="0.1cm" fo:margin-bottom="0.1cm" fo:text-align="center" fo:text-indent="0cm"/>
+			<style:text-properties fo:font-size="36pt"/>
+		</style:style>
+		<style:style style:name="headline" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+			<style:text-properties fo:font-size="24pt"/>
+		</style:style>
+		<style:style style:name="headline1" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+			<style:text-properties fo:font-size="18pt" fo:font-weight="bold"/>
+		</style:style>
+		<style:style style:name="headline2" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+			<style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold"/>
+		</style:style>
+		<style:style style:name="measure" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.2cm" draw:marker-end="Arrow" draw:marker-end-width="0.2cm" draw:fill="none" draw:show-unit="true"/>
+			<style:text-properties fo:font-size="12pt"/>
+		</style:style>
+		<style:style style:name="Normal" style:family="graphic">
+			<style:paragraph-properties style:text-autospace="none"/>
+			<style:text-properties style:use-window-font-color="true" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="AR PL UMing TW1" style:font-family-asian="'AR PL UMing TW'" style:font-family-generic-asian="roman" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="hi" style:country-asian="IN"/>
+		</style:style>
+		<style:style style:name="預先格式化的文字" style:family="graphic">
+			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:text-autospace="none"/>
+			<style:text-properties style:font-name="Liberation Mono2" fo:font-family="'Liberation Mono', 'Courier New'" style:font-family-generic="modern" style:font-pitch="fixed" fo:font-size="10pt" style:font-name-asian="Liberation Mono2" style:font-family-asian="'Liberation Mono', 'Courier New'" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-size-asian="10pt"/>
+		</style:style>
+		<style:style style:name="索引" style:family="graphic">
+			<style:paragraph-properties style:text-autospace="none"/>
+			<style:text-properties style:font-name-asian="Noto Sans CJK TC Regular2" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="swiss"/>
+		</style:style>
+		<style:style style:name="圖表標示" style:family="graphic">
+			<style:paragraph-properties fo:margin-top="0.374cm" fo:margin-bottom="0.374cm" style:text-autospace="none"/>
+			<style:text-properties fo:font-style="italic" style:font-name-asian="Noto Sans CJK TC Regular2" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="swiss" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-style-complex="italic"/>
+		</style:style>
+		<style:style style:name="清單" style:family="graphic">
+			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.436cm" fo:line-height="120%" style:text-autospace="none"/>
+			<style:text-properties style:font-name-asian="Noto Sans CJK TC Regular2" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="swiss"/>
+		</style:style>
+		<style:style style:name="預設-background" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:text-properties style:letter-kerning="true"/>
+		</style:style>
+		<style:style style:name="預設-backgroundobjects" style:family="presentation">
+			<style:graphic-properties draw:textarea-horizontal-align="justify" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+			<style:text-properties style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" style:letter-kerning="true" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable"/>
+		</style:style>
+		<style:style style:name="預設-notes" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
+			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="#ffffff" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Droid Sans Fallback" style:font-family-complex="'Droid Sans Fallback'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="預設-outline1" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+				<text:list-style style:name="預設-outline1">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="–">
+						<style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="–">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="#ffffff" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Droid Sans Fallback" style:font-family-complex="'Droid Sans Fallback'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="預設-outline2" style:family="presentation" style:parent-style-name="預設-outline1">
+			<style:paragraph-properties fo:margin-top="0.4cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+		</style:style>
+		<style:style style:name="預設-outline3" style:family="presentation" style:parent-style-name="預設-outline2">
+			<style:paragraph-properties fo:margin-top="0.3cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+		</style:style>
+		<style:style style:name="預設-outline4" style:family="presentation" style:parent-style-name="預設-outline3">
+			<style:paragraph-properties fo:margin-top="0.2cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-outline5" style:family="presentation" style:parent-style-name="預設-outline4">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-outline6" style:family="presentation" style:parent-style-name="預設-outline5">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-outline7" style:family="presentation" style:parent-style-name="預設-outline6">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-outline8" style:family="presentation" style:parent-style-name="預設-outline7">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-outline9" style:family="presentation" style:parent-style-name="預設-outline8">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="預設-subtitle" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+				<text:list-style style:name="預設-subtitle">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="#ffffff" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Droid Sans Fallback" style:font-family-complex="'Droid Sans Fallback'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="預設-title" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-image-width="0cm" draw:fill-image-height="0cm" draw:textarea-vertical-align="middle">
+				<text:list-style style:name="預設-title">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:text-align="center"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="思源黑體 Regular2" fo:font-family="'思源黑體 Regular'" style:font-style-name="標準" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="#ffffff" style:font-name-asian="思源黑體 Regular2" style:font-family-asian="'思源黑體 Regular'" style:font-style-name-asian="標準" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Droid Sans Fallback" style:font-family-complex="'Droid Sans Fallback'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:presentation-page-layout style:name="AL0T26">
+			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+		</style:presentation-page-layout>
+		<style:presentation-page-layout style:name="AL1T0">
+			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
+			<presentation:placeholder presentation:object="subtitle" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
+		</style:presentation-page-layout>
+		<style:presentation-page-layout style:name="AL2T1">
+			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
+			<presentation:placeholder presentation:object="outline" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
+		</style:presentation-page-layout>
+		<style:presentation-page-layout style:name="AL3T32">
+			<presentation:placeholder presentation:object="subtitle" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="17.325cm"/>
+		</style:presentation-page-layout>
+		<style:presentation-page-layout style:name="AL4T3">
+			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
+			<presentation:placeholder presentation:object="outline" svg:x="2.058cm" svg:y="5.838cm" svg:width="11.67cm" svg:height="13.23cm"/>
+			<presentation:placeholder presentation:object="outline" svg:x="14.311cm" svg:y="5.838cm" svg:width="-0.585cm" svg:height="13.23cm"/>
+		</style:presentation-page-layout>
+	</office:styles>
+	<office:automatic-styles>
+		<style:page-layout style:name="PM0">
+			<style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="21cm" fo:page-height="29.7cm" style:print-orientation="portrait"/>
+		</style:page-layout>
+		<style:page-layout style:name="PM1">
+			<style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="28cm" fo:page-height="21cm" style:print-orientation="landscape"/>
+		</style:page-layout>
+		<style:style style:name="dp1" style:family="drawing-page">
+			<style:drawing-page-properties draw:background-size="border" draw:fill="none"/>
+		</style:style>
+		<style:style style:name="dp2" style:family="drawing-page">
+			<style:drawing-page-properties presentation:display-header="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+		</style:style>
+		<style:style style:name="dp3" style:family="drawing-page">
+			<style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+		</style:style>
+		<style:style style:name="dp4" style:family="drawing-page">
+			<style:drawing-page-properties presentation:visibility="hidden" presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+		</style:style>
+		<style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+		</style:style>
+		<style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+		</style:style>
+		<style:style style:name="gr3" style:family="graphic" style:parent-style-name="物體無填充也無線條">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:image-opacity="100%" style:mirror="none"/>
+		</style:style>
+		<style:style style:name="gr4" style:family="graphic">
+			<style:graphic-properties style:protect="size"/>
+		</style:style>
+		<style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="0.941cm"/>
+		</style:style>
+		<style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="3.345cm"/>
+		</style:style>
+		<style:style style:name="pr1" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
+		</style:style>
+		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+		</style:style>
+		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+		</style:style>
+		<style:style style:name="pr4" style:family="presentation" style:parent-style-name="預設-title">
+			<style:graphic-properties fo:min-height="3.506cm"/>
+		</style:style>
+		<style:style style:name="pr5" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="3.353cm"/>
+		</style:style>
+		<style:style style:name="pr6" style:family="presentation" style:parent-style-name="預設-notes">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="13.364cm"/>
+		</style:style>
+		<style:style style:name="pr7" style:family="presentation" style:parent-style-name="預設-outline1">
+			<style:graphic-properties fo:min-height="11.929cm"/>
+		</style:style>
+		<style:style style:name="pr8" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="16.255cm"/>
+		</style:style>
+		<style:style style:name="pr9" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="16.255cm"/>
+		</style:style>
+		<style:style style:name="pr10" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="19.363cm"/>
+		</style:style>
+		<style:style style:name="pr11" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="14.733cm"/>
+		</style:style>
+		<style:style style:name="pr12" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="18.523cm"/>
+		</style:style>
+		<style:style style:name="pr13" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="18.601cm"/>
+		</style:style>
+		<style:style style:name="pr14" style:family="presentation" style:parent-style-name="預設-subtitle">
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="7.6cm"/>
+		</style:style>
+		<style:style style:name="P1" style:family="paragraph">
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P2" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P3" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="end"/>
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P4" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="end"/>
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P5" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="center"/>
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P6" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="center"/>
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="P7" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+		</style:style>
+		<style:style style:name="P8" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none"/>
+			<style:paragraph-properties fo:text-align="center"/>
+		</style:style>
+		<style:style style:name="P9" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:text-properties style:font-size-asian="20pt"/>
+		</style:style>
+		<style:style style:name="P10" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:text-properties fo:font-size="72pt" style:font-size-asian="72pt" style:font-size-complex="72pt"/>
+		</style:style>
+		<style:style style:name="P11" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="start"/>
+		</style:style>
+		<style:style style:name="P12" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="P13" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="start"/>
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="P14" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="end"/>
+		</style:style>
+		<style:style style:name="P15" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="start" style:text-autospace="none"/>
+		</style:style>
+		<style:style style:name="P16" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="start" style:text-autospace="none"/>
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="32pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="P17" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="end" style:text-autospace="none"/>
+		</style:style>
+		<style:style style:name="P18" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="end" style:text-autospace="none"/>
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="32pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="P19" style:family="paragraph">
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+		</style:style>
+		<style:style style:name="P20" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+		</style:style>
+		<style:style style:name="P21" style:family="paragraph">
+			<style:paragraph-properties fo:text-align="center" style:text-autospace="none"/>
+		</style:style>
+		<style:style style:name="P22" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:text-properties fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="P23" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+			<style:text-properties fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="P24" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="start" style:text-autospace="none"/>
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="P25" style:family="paragraph">
+			<loext:graphic-properties draw:fill-color="#ffffff"/>
+			<style:paragraph-properties fo:text-align="start"/>
+			<style:text-properties fo:font-size="128pt" style:font-size-asian="128pt" style:font-size-complex="128pt"/>
+		</style:style>
+		<style:style style:name="T1" style:family="text">
+			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+		</style:style>
+		<style:style style:name="T2" style:family="text">
+			<style:text-properties style:text-line-through-style="solid" style:text-line-through-type="single"/>
+		</style:style>
+		<style:style style:name="T3" style:family="text">
+			<style:text-properties fo:font-size="72pt" style:font-size-asian="72pt" style:font-size-complex="72pt"/>
+		</style:style>
+		<style:style style:name="T4" style:family="text">
+			<style:text-properties fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="T5" style:family="text">
+			<style:text-properties fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T6" style:family="text">
+			<style:text-properties fo:color="#999999" style:text-line-through-style="solid" style:text-line-through-type="single" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T7" style:family="text">
+			<style:text-properties fo:font-size="48pt" style:font-size-asian="48pt" style:font-size-complex="48pt"/>
+		</style:style>
+		<style:style style:name="T8" style:family="text">
+			<style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="36pt" style:font-size-asian="36pt" style:font-size-complex="36pt"/>
+		</style:style>
+		<style:style style:name="T9" style:family="text">
+			<style:text-properties fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="36pt" fo:font-style="italic" style:font-size-asian="36pt" style:font-style-asian="italic" style:font-size-complex="36pt" style:font-style-complex="italic"/>
+		</style:style>
+		<style:style style:name="T10" style:family="text">
+			<style:text-properties fo:color="#b2b2b2" style:text-line-through-style="solid" style:text-line-through-type="single" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T11" style:family="text">
+			<style:text-properties style:use-window-font-color="true" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="36pt" style:font-size-asian="36pt" style:font-size-complex="36pt"/>
+		</style:style>
+		<style:style style:name="T12" style:family="text">
+			<style:text-properties fo:color="#ff6600" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T13" style:family="text">
+			<style:text-properties fo:color="#000000" fo:font-size="54pt" style:font-size-asian="54pt" style:font-size-complex="54pt"/>
+		</style:style>
+		<style:style style:name="T14" style:family="text">
+			<style:text-properties style:use-window-font-color="true" fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="T15" style:family="text">
+			<style:text-properties style:use-window-font-color="true" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T16" style:family="text">
+			<style:text-properties fo:color="#000000" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T17" style:family="text">
+			<style:text-properties fo:color="#000000" fo:font-size="48pt" style:font-size-asian="48pt" style:font-size-complex="48pt"/>
+		</style:style>
+		<style:style style:name="T18" style:family="text">
+			<style:text-properties style:use-window-font-color="true" fo:font-size="48pt" style:font-size-asian="48pt" style:font-size-complex="48pt"/>
+		</style:style>
+		<style:style style:name="T19" style:family="text">
+			<style:text-properties fo:color="#004a43"/>
+		</style:style>
+		<style:style style:name="T20" style:family="text">
+			<style:text-properties fo:color="#800000"/>
+		</style:style>
+		<style:style style:name="T21" style:family="text">
+			<style:text-properties fo:color="#40015a"/>
+		</style:style>
+		<style:style style:name="T22" style:family="text">
+			<style:text-properties fo:color="#800000" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+		</style:style>
+		<style:style style:name="T23" style:family="text">
+			<style:text-properties fo:color="#000000"/>
+		</style:style>
+		<style:style style:name="T24" style:family="text">
+			<style:text-properties fo:color="#400000"/>
+		</style:style>
+		<style:style style:name="T25" style:family="text">
+			<style:text-properties fo:color="#808030"/>
+		</style:style>
+		<style:style style:name="T26" style:family="text">
+			<style:text-properties fo:color="#800080"/>
+		</style:style>
+		<style:style style:name="T27" style:family="text">
+			<style:text-properties fo:color="#603000"/>
+		</style:style>
+		<style:style style:name="T28" style:family="text">
+			<style:text-properties fo:color="#0000e6"/>
+		</style:style>
+		<style:style style:name="T29" style:family="text">
+			<style:text-properties fo:color="#0f69ff"/>
+		</style:style>
+		<style:style style:name="T30" style:family="text">
+			<style:text-properties fo:color="#008c00"/>
+		</style:style>
+		<style:style style:name="T31" style:family="text">
+			<style:text-properties fo:font-size="64pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="T32" style:family="text">
+			<style:text-properties fo:font-size="54pt" style:font-size-asian="54pt" style:font-size-complex="54pt"/>
+		</style:style>
+		<style:style style:name="T33" style:family="text">
+			<style:text-properties fo:color="#ff6600" fo:font-size="54pt" style:font-size-asian="54pt" style:font-size-complex="54pt"/>
+		</style:style>
+		<style:style style:name="T34" style:family="text">
+			<style:text-properties fo:color="#3333ff" fo:font-size="64pt" style:font-size-asian="64pt" style:font-size-complex="64pt"/>
+		</style:style>
+		<style:style style:name="T35" style:family="text">
+			<style:text-properties fo:color="#3333ff" fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="T36" style:family="text">
+			<style:text-properties fo:color="#000000" fo:font-size="100pt" style:font-size-asian="100pt" style:font-size-complex="100pt"/>
+		</style:style>
+		<style:style style:name="T37" style:family="text">
+			<style:text-properties fo:color="#3333ff" fo:font-size="48pt" style:font-size-asian="48pt" style:font-size-complex="48pt"/>
+		</style:style>
+		<style:style style:name="T38" style:family="text">
+			<style:text-properties style:use-window-font-color="true" fo:font-size="36pt" style:font-size-asian="36pt" style:font-size-complex="36pt"/>
+		</style:style>
+		<style:style style:name="T39" style:family="text">
+			<style:text-properties fo:font-size="90pt" style:font-size-asian="90pt" style:font-size-complex="90pt"/>
+		</style:style>
+		<style:style style:name="T40" style:family="text">
+			<style:text-properties fo:font-size="128pt" style:font-size-asian="128pt" style:font-size-complex="128pt"/>
+		</style:style>
+		<text:list-style style:name="L1">
+			<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+				<style:list-level-properties text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+				<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+				<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+				<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+				<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+				<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+				<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+				<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+				<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+				<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<text:list-style style:name="L2">
+			<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+				<style:list-level-properties text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+				<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+				<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+				<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+				<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+				<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+				<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+				<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+				<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+				<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<text:list-style style:name="L3">
+			<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+				<style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="2" text:bullet-char="–">
+				<style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+				<style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="4" text:bullet-char="–">
+				<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+				<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+				<style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+				<style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+				<style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+				<style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+			<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+				<style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+				<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+	</office:automatic-styles>
+	<office:master-styles>
+		<draw:layer-set>
+			<draw:layer draw:name="layout"/>
+			<draw:layer draw:name="background"/>
+			<draw:layer draw:name="backgroundobjects"/>
+			<draw:layer draw:name="controls"/>
+			<draw:layer draw:name="measurelines"/>
+		</draw:layer-set>
+		<style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp2">
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="2.898cm"/>
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="11.474cm"/>
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="20.05cm"/>
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="2.898cm"/>
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="11.474cm"/>
+			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="20.05cm"/>
+			<draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+				<draw:text-box>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<presentation:header/>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
+				<draw:text-box>
+					<text:p text:style-name="P3">
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<presentation:date-time/>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+				<draw:text-box>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<presentation:footer/>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
+				<draw:text-box>
+					<text:p text:style-name="P3">
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:page-number>&lt;編號&gt;</text:page-number>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+		</style:handout-master>
+		<style:master-page style:name="預設" style:page-layout-name="PM1" draw:style-name="dp1">
+			<draw:frame presentation:style-name="預設-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.178cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
+				<draw:text-box>
+					<text:p text:style-name="P1">
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<presentation:date-time/>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<draw:frame presentation:style-name="pr1" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
+				<draw:text-box>
+					<text:p text:style-name="P5">
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<presentation:footer/>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.131cm" presentation:class="page-number">
+				<draw:text-box>
+					<text:p text:style-name="P3">
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:page-number>&lt;編號&gt;</text:page-number>
+					</text:p>
+				</draw:text-box>
+			</draw:frame>
+			<presentation:notes style:page-layout-name="PM0">
+				<draw:page-thumbnail presentation:style-name="預設-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+					<draw:text-box>
+						<text:p text:style-name="P1">
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<presentation:header/>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
+					<draw:text-box>
+						<text:p text:style-name="P3">
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<presentation:date-time/>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+					<draw:text-box>
+						<text:p text:style-name="P1">
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<presentation:footer/>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
+					<draw:text-box>
+						<text:p text:style-name="P3">
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+			</presentation:notes>
+		</style:master-page>
+	</office:master-styles>
+	<office:body>
+		<office:presentation>
+			<draw:page draw:name="page1" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL1T0">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>自由軟體簡介</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr5" draw:text-style-name="P7" draw:layer="layout" svg:width="25.199cm" svg:height="3.353cm" svg:x="1.4cm" svg:y="17.17cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>自由知識創作平台© 2017<text:line-break/>保留部份權利</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="13.407cm" svg:height="13.407cm" svg:x="7.297cm" svg:y="4.193cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/Logo%20of%20GNU.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="1" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>免責聲明</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:list text:style-name="L3">
+							<text:list-item>
+								<text:p>個人理解，不保證正確性</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>疑似傳教/直銷性質</text:p>
+							</text:list-item>
+						</text:list>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="2" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page3" draw:style-name="dp4" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>內容大綱</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:list text:style-name="L3">
+							<text:list-item>
+								<text:p>自由軟體是什麼？<text:span text:style-name="T2">可以吃嗎？</text:span></text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>我在哪些地方可以看到自由軟體？</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>＃開放來源碼軟體 ？＃免費軟體 ？#專有軟體 ？</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>還有哪些自由軟體？</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>相關資源</text:p>
+							</text:list-item>
+						</text:list>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="3" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page4" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P10" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>
+							<text:span text:style-name="T3">自由軟體是什麼？</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="4" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page5" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P12" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T4">自由軟體</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">是一種軟體</text:span>
+							<text:span text:style-name="T6">廢話</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="5" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page6" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr9" draw:text-style-name="P13" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.1cm" svg:y="1.337cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T7">顧名思義</text:span>
+							<text:span text:style-name="T7">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T4">自由軟體</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">是保障使用者自由的軟體</text:span>
+						</text:p>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T8">Free Software</text:span>
+							<text:span text:style-name="T8">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T9">Free as in Freedom</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="6" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page7" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr9" draw:text-style-name="P13" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.1cm" svg:y="1.337cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P14">
+							<text:span text:style-name="T7">相對於</text:span>
+							<text:span text:style-name="T7">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T4">專有軟體</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">限制使用者自由的軟體</text:span>
+							<text:span text:style-name="T10">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T11">Proprietary Software</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="7" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page8" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T4">自由之零</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">不論目的為何，任何人皆有使用該軟體的自由</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="8" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page9" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr10" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="19.363cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T4">自由之一</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">任何人皆有研究該軟體如何運作並修改它以符合資身需求的自由</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="9" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page10" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr10" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="19.363cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T4">自由之一</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">取得</text:span>
+							<text:span text:style-name="T12">軟體來源碼</text:span>
+							<text:span text:style-name="T5">為達成此目的之必要前提</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="10" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page11" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr11" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="14.733cm" svg:x="1.4cm" svg:y="2.684cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T13">Source Code</text:span>
+							<text:span text:style-name="T13">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T14">軟體來源碼</text:span>
+							<text:span text:style-name="T14">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T15">軟體的「原料」</text:span>
+							<text:span text:style-name="T15">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T15">給人類寫跟</text:span>
+							<text:span text:style-name="T16">讀</text:span>
+							<text:span text:style-name="T15">的</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="11" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page12" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr12" draw:text-style-name="P18" draw:layer="layout" svg:width="25.199cm" svg:height="18.523cm" svg:x="1.001cm" svg:y="1.9cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P17">
+							<text:span text:style-name="T17">Target Code</text:span>
+							<text:span text:style-name="T13">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T14">相對於目標碼</text:span>
+							<text:span text:style-name="T14">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T15">給電腦讀的</text:span>
+							<text:span text:style-name="T15">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T18">喜歡自虐的人硬要讀</text:span>
+							<text:span text:style-name="T18">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T18">也不是不可以</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="12" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page13" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL4T3">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>來源碼 VS.目標碼</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="12.297cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P19">
+							<text:span text:style-name="T19">#include </text:span>
+							<text:span text:style-name="T20">&lt;</text:span>
+							<text:span text:style-name="T21">stdio.h</text:span>
+							<text:span text:style-name="T20">&gt;</text:span>
+						</text:p>
+						<text:p>
+							<text:span text:style-name="T19">#include </text:span>
+							<text:span text:style-name="T20">&lt;</text:span>
+							<text:span text:style-name="T21">stdlib.h</text:span>
+							<text:span text:style-name="T20">&gt;</text:span>
+						</text:p>
+						<text:p>
+							<text:span text:style-name="T20"/>
+						</text:p>
+						<text:p>
+							<text:span text:style-name="T22">int</text:span>
+							<text:span text:style-name="T23"> </text:span>
+							<text:span text:style-name="T24">main</text:span>
+							<text:span text:style-name="T25">(</text:span>
+							<text:span text:style-name="T22">int</text:span>
+							<text:span text:style-name="T23"> argc</text:span>
+							<text:span text:style-name="T25">,</text:span>
+							<text:span text:style-name="T23"> </text:span>
+							<text:span text:style-name="T22">char</text:span>
+							<text:span text:style-name="T23"> </text:span>
+							<text:span text:style-name="T25">*</text:span>
+							<text:span text:style-name="T23">argv</text:span>
+							<text:span text:style-name="T25">[])</text:span>
+							<text:span text:style-name="T26">{</text:span>
+						</text:p>
+						<text:p>
+							<text:span text:style-name="T23">
+								<text:s text:c="8"/>
+							</text:span>
+							<text:span text:style-name="T27">printf</text:span>
+							<text:span text:style-name="T25">(</text:span>
+							<text:span text:style-name="T20">"</text:span>
+							<text:span text:style-name="T28">媽我在這裡！</text:span>
+							<text:span text:style-name="T29">\n</text:span>
+							<text:span text:style-name="T20">"</text:span>
+							<text:span text:style-name="T25">)</text:span>
+							<text:span text:style-name="T26">;</text:span>
+						</text:p>
+						<text:p>
+							<text:span text:style-name="T23">
+								<text:s text:c="8"/>
+							</text:span>
+							<text:span text:style-name="T22">return</text:span>
+							<text:span text:style-name="T23"> </text:span>
+							<text:span text:style-name="T30">EXIT_SUCCESS</text:span>
+							<text:span text:style-name="T26">;</text:span>
+						</text:p>
+						<text:p>}</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="12.297cm" svg:height="12.179cm" svg:x="14.313cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>ELF&gt;0@@@8<text:tab/>@@@@@@88@8@@@ ``(0 ((`(`TT@T@DDPtd@@44QtdRtd``</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:width="12.687cm" svg:height="1.191cm" svg:x="14.313cm" svg:y="16.3cm">
+					<draw:text-box>
+						<text:p>$ gcc -o hello.exe hello.c</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:width="12.687cm" svg:height="1.191cm" svg:x="1.113cm" svg:y="16.2cm">
+					<draw:text-box>
+						<text:p>hello.c</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="13" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page14" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr9" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T5"/>
+						</text:p>
+						<text:p text:style-name="P21">
+							<text:span text:style-name="T4">單獨可控制性</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">Individual Control</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T7">你可以自己玩自己的</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="14" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page15" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr10" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="19.363cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T31">新的問題</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T7">軟體可以應用在各個領域</text:span>
+						</text:p>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T7">但</text:span>
+							<text:span text:style-name="T7">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T7">不是每個領域的人都是程式專才</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="15" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page16" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr9" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T5"/>
+						</text:p>
+						<text:p text:style-name="P21">
+							<text:span text:style-name="T4">共同可控制性</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">Collective Control</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T7">大家可以一起玩</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="16" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page17" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr10" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="19.363cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T7">Redistribution</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T4">自由之二</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">有（透過任意媒介）</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">再散布</text:span>
+							<text:span text:style-name="T12">原版</text:span>
+							<text:span text:style-name="T5">軟體的自由</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="17" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page18" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr10" draw:text-style-name="P16" draw:layer="layout" svg:width="25.199cm" svg:height="19.363cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T4">自由之三</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T32">有（透過任意媒介）</text:span>
+							<text:span text:style-name="T32">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T32">再散布</text:span>
+							<text:span text:style-name="T33">修改後的</text:span>
+							<text:span text:style-name="T32">軟體的自由</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="18" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page19" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P12" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T4">自由軟體</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">是一個 </text:span>
+							<text:span text:style-name="T34">#</text:span>
+							<text:span text:style-name="T34">社會運動</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="19" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page20" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P12" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T35">#</text:span>
+							<text:span text:style-name="T35">數位路平</text:span>
+							<text:span text:style-name="T35">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T15">縮短數位落差</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="20" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page21" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P12" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T36">數位落差</text:span>
+							<text:span text:style-name="T37">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T38">「數位落差（英语：</text:span>
+							<text:span text:style-name="T38">Digital divide</text:span>
+							<text:span text:style-name="T38">），亦作數碼鴻溝、數碼隔膜或數碼差距，是指社會上不同性別、種族、經濟、居住環境、階級背景的人，接近使用數位產品（如電腦或是網路）的機會與能力上的差異。」</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="21" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page22" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr9" draw:text-style-name="P22" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>
+							<text:span text:style-name="T5">哪裡可以看到數位落差？</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="22" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page23" draw:style-name="dp3" draw:master-page-name="預設">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="27.981cm" svg:height="19.18cm" svg:x="0.019cm" svg:y="0cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/數位落差範例%20-%20海洋大學教學誤系統.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<draw:frame draw:style-name="gr6" draw:text-style-name="P23" draw:layer="layout" svg:width="12.4cm" svg:height="3.595cm" svg:x="14cm" svg:y="5.2cm">
+					<draw:text-box>
+						<text:p>
+							<text:span text:style-name="T5">教學誤系統</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="23" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page24" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P22" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T5">「各位同學，</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">作業、報告、申請書請交</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">DOC/PPT/Powerpoint</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">喔！」（設計對白）</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="24" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page25" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P24" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T35">#</text:span>
+							<text:span text:style-name="T35">反壟斷</text:span>
+							<text:span text:style-name="T35">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T16">安梯托拉斯</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="25" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page26" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="28.083cm" svg:height="17.4cm" svg:x="0cm" svg:y="0cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/反壟斷範例%20-%20暨大不續約%20Microsoft%20Office.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="26" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page27" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="22.034cm" svg:height="8.275cm" svg:x="4.266cm" svg:y="8.925cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/反壟斷範例%20-%20暨大不續約%20Microsoft%20Office%20-%20Facebook%20回應.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="27.537cm" svg:height="8.231cm" svg:x="0.063cm" svg:y="0cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/反壟斷範例%20-%20暨大不續約%20Microsoft%20Office%20-%20INSIDE%20文章.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="27" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page28" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P24" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T18">Vendor Lock-in</text:span>
+							<text:span text:style-name="T18">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T14">廠商綁死</text:span>
+							<text:span text:style-name="T35">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T38">你</text:span>
+							<text:span text:style-name="T11">不跟我買試試看啊</text:span>
+							<text:span text:style-name="T11">&lt;3</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="28" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page29" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P24" draw:layer="layout" svg:width="25.199cm" svg:height="16.255cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P15">
+							<text:span text:style-name="T35">#</text:span>
+							<text:span text:style-name="T35">反盜版</text:span>
+							<text:span text:style-name="T35">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T10">谷阿莫什麼的最討厭了</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="29" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page30" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P13" draw:layer="layout" svg:width="13.8cm" svg:height="16.255cm" svg:x="0.5cm" svg:y="1.945cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T39">Richard</text:span>
+							<text:span text:style-name="T39">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T39">Matthew</text:span>
+							<text:span text:style-name="T39">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T39">Stallman</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="13.999cm" svg:height="20.999cm" svg:x="14cm" svg:y="0.001cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/Richard_Stallman_-_Fête_de_l'Humanité_2014_-_010.min.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="30" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page31" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr8" draw:text-style-name="P13" draw:layer="layout" svg:width="13.8cm" svg:height="16.255cm" svg:x="0.5cm" svg:y="1.945cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T4">General</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T4">Public</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T4">License</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="14.853cm" svg:height="20.999cm" svg:x="12.947cm" svg:y="1.6cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/gpl-v3-logo.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="31" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page32" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr13" draw:text-style-name="P13" draw:layer="layout" svg:width="26.7cm" svg:height="18.601cm" svg:x="0.5cm" svg:y="0.772cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T4">GPL</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">你可以自己隨便玩</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">但是如果你要拿給別人用</text:span>
+						</text:p>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T5">那個人可以跟你要來源碼</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">而你不可以不給</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="32" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page33" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr13" draw:text-style-name="P13" draw:layer="layout" svg:width="26.7cm" svg:height="18.601cm" svg:x="0.5cm" svg:y="0.772cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T4">GPL</text:span>
+							<text:span text:style-name="T4">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">你可以自己隨便玩</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">但是如果你拿它來做別的東西</text:span>
+							<text:span text:style-name="T5">
+								<text:line-break/>
+							</text:span>
+							<text:span text:style-name="T5">那個東西也必須使用</text:span>
+							<text:span text:style-name="T5">GPL</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="33" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page34" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL3T32">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr14" draw:text-style-name="P25" draw:layer="layout" svg:width="10.4cm" svg:height="7.6cm" svg:x="2.2cm" svg:y="7cm" presentation:class="subtitle" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p text:style-name="P11">
+							<text:span text:style-name="T40">GNU</text:span>
+						</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame draw:style-name="gr3" draw:text-style-name="P8" draw:layer="layout" svg:width="13.407cm" svg:height="13.407cm" svg:x="12.8cm" svg:y="2.993cm">
+					<draw:image xlink:href="../../../../Lin-Buo-Ren/工作空間/自由知識創作平台/自由軟體簡介/圖片/Logo%20of%20GNU.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad">
+						<text:p/>
+					</draw:image>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="34" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page35" draw:style-name="dp4" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>自由軟體是什麼</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:list text:style-name="L3">
+							<text:list-item>
+								<text:p>參考《Free software, free society - Richard Stallman at TEDxGeneva 2014》影片：</text:p>
+							</text:list-item>
+						</text:list>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="35" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page36" draw:style-name="dp4" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>自由軟體的迷思</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:list text:style-name="L3">
+							<text:list-item>
+								<text:p>自由軟體不能賺錢？</text:p>
+							</text:list-item>
+						</text:list>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="36" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<draw:page draw:name="page37" draw:style-name="dp4" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
+				<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:p>相關資源</text:p>
+					</draw:text-box>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="15.086cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:user-transformed="true">
+					<draw:text-box>
+						<text:list text:style-name="L3">
+							<text:list-item>
+								<text:p>自由軟體策略聯盟<text:line-break/><text:a xlink:href="https://www.facebook.com/groups/1573742489504709/" xlink:type="simple">https://www.facebook.com/groups/1573742489504709/</text:a></text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>自由軟體的愛好<text:line-break/><text:a xlink:href="https://www.facebook.com/groups/221982324493401/1309768789048077/" xlink:type="simple">https://www.facebook.com/groups/221982324493401/1309768789048077/</text:a></text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>教育部校園自由軟體數位資源推廣服務中心</text:p>
+								<text:p>
+									<text:a xlink:href="http://ossacc.moe.edu.tw/" xlink:type="simple">http://ossacc.moe.edu.tw/</text:a>
+								</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p>ezgo</text:p>
+								<text:p>
+									<text:a xlink:href="http://ezgo.westart.tw/" xlink:type="simple">http://ezgo.westart.tw</text:a>
+								</text:p>
+								<text:p/>
+							</text:list-item>
+						</text:list>
+					</draw:text-box>
+				</draw:frame>
+				<presentation:notes draw:style-name="dp2">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="37" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+						<draw:text-box/>
+					</draw:frame>
+				</presentation:notes>
+			</draw:page>
+			<presentation:settings presentation:mouse-visible="false"/>
+		</office:presentation>
+	</office:body>
+</office:document>
