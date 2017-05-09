@@ -1,0 +1,11 @@
+# Gitattribute - Setup Clean/Smudge filter and Stuff
+## Clean Filter for Open Document Format(Flat-XML style) Documents
+## Stripping unneeded info, etc.
+*.fodt filter=clean-odf-flat-xml
+*.fodp filter=clean-odf-flat-xml
+*.fodg filter=clean-odf-flat-xml
+*.fods filter=clean-odf-flat-xml
+
+## Clean Filter for SVG Pictures
+## Stripping unneeded info, etc.
+*.svg filter=clean-svg
